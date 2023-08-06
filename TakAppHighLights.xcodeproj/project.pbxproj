@@ -59,6 +59,7 @@
 		B25C64862A7F3897006AD3E6 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		B25C648B2A7F3BA1006AD3E6 /* MTLViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTLViewContainer.swift; sourceTree = "<group>"; };
 		B25C649E2A7F467B006AD3E6 /* MKDevice.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MKDevice.xcframework; sourceTree = "<group>"; };
+		B25C64A22A7F48F1006AD3E6 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 			children = (
 				B25C645C2A7F37B4006AD3E6 /* TakAppHighLightsApp.swift */,
 				B25C645E2A7F37B4006AD3E6 /* ContentView.swift */,
+				B25C64A22A7F48F1006AD3E6 /* Shader.metal */,
 				B25C648B2A7F3BA1006AD3E6 /* MTLViewContainer.swift */,
 				B25C64602A7F37B5006AD3E6 /* Assets.xcassets */,
 				B25C649E2A7F467B006AD3E6 /* MKDevice.xcframework */,
