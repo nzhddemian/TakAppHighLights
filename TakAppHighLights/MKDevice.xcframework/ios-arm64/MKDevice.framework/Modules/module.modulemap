@@ -1,0 +1,4 @@
+framework module MKDevice {
+  header "MKDevice-Swift.h"
+  requires objc
+}

@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B25C645D2A7F37B4006AD3E6 /* TakAppHighLightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C645C2A7F37B4006AD3E6 /* TakAppHighLightsApp.swift */; };
+		B25C645F2A7F37B4006AD3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C645E2A7F37B4006AD3E6 /* ContentView.swift */; };
+		B25C64612A7F37B5006AD3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25C64602A7F37B5006AD3E6 /* Assets.xcassets */; };
+		B25C64642A7F37B6006AD3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25C64632A7F37B6006AD3E6 /* Preview Assets.xcassets */; };
+		B25C64872A7F3897006AD3E6 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = B25C64862A7F3897006AD3E6 /* test.png */; };
+		B25C648C2A7F3BA1006AD3E6 /* MTLViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25C648B2A7F3BA1006AD3E6 /* MTLViewContainer.swift */; };
+		B25C64A02A7F4682006AD3E6 /* MKDevice.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25C649E2A7F467B006AD3E6 /* MKDevice.xcframework */; };
+		B25C64A12A7F4682006AD3E6 /* MKDevice.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B25C649E2A7F467B006AD3E6 /* MKDevice.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B25C646A2A7F37B6006AD3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B25C64512A7F37B4006AD3E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B25C64582A7F37B4006AD3E6;
+			remoteInfo = TakAppHighLights;
+		};
+		B25C64742A7F37B6006AD3E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B25C64512A7F37B4006AD3E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B25C64582A7F37B4006AD3E6;
+			remoteInfo = TakAppHighLights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B25C64912A7F3E88006AD3E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B25C64A12A7F4682006AD3E6 /* MKDevice.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B25C64592A7F37B4006AD3E6 /* TakAppHighLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakAppHighLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25C645C2A7F37B4006AD3E6 /* TakAppHighLightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakAppHighLightsApp.swift; sourceTree = "<group>"; };
+		B25C645E2A7F37B4006AD3E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B25C64602A7F37B5006AD3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B25C64632A7F37B6006AD3E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B25C64692A7F37B6006AD3E6 /* TakAppHighLightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakAppHighLightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25C64732A7F37B6006AD3E6 /* TakAppHighLightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakAppHighLightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25C64862A7F3897006AD3E6 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		B25C648B2A7F3BA1006AD3E6 /* MTLViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTLViewContainer.swift; sourceTree = "<group>"; };
+		B25C649E2A7F467B006AD3E6 /* MKDevice.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MKDevice.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B25C64562A7F37B4006AD3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25C64A02A7F4682006AD3E6 /* MKDevice.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25C64662A7F37B6006AD3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25C64702A7F37B6006AD3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B25C64502A7F37B4006AD3E6 = {
+			isa = PBXGroup;
+			children = (
+				B25C645B2A7F37B4006AD3E6 /* TakAppHighLights */,
+				B25C645A2A7F37B4006AD3E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B25C645A2A7F37B4006AD3E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25C64592A7F37B4006AD3E6 /* TakAppHighLights.app */,
+				B25C64692A7F37B6006AD3E6 /* TakAppHighLightsTests.xctest */,
+				B25C64732A7F37B6006AD3E6 /* TakAppHighLightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B25C645B2A7F37B4006AD3E6 /* TakAppHighLights */ = {
+			isa = PBXGroup;
+			children = (
+				B25C645C2A7F37B4006AD3E6 /* TakAppHighLightsApp.swift */,
+				B25C645E2A7F37B4006AD3E6 /* ContentView.swift */,
+				B25C648B2A7F3BA1006AD3E6 /* MTLViewContainer.swift */,
+				B25C64602A7F37B5006AD3E6 /* Assets.xcassets */,
+				B25C649E2A7F467B006AD3E6 /* MKDevice.xcframework */,
+				B25C64862A7F3897006AD3E6 /* test.png */,
+				B25C64622A7F37B6006AD3E6 /* Preview Content */,
+			);
+			path = TakAppHighLights;
+			sourceTree = "<group>";
+		};
+		B25C64622A7F37B6006AD3E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B25C64632A7F37B6006AD3E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B25C64582A7F37B4006AD3E6 /* TakAppHighLights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25C647D2A7F37B6006AD3E6 /* Build configuration list for PBXNativeTarget "TakAppHighLights" */;
+			buildPhases = (
+				B25C64552A7F37B4006AD3E6 /* Sources */,
+				B25C64562A7F37B4006AD3E6 /* Frameworks */,
+				B25C64572A7F37B4006AD3E6 /* Resources */,
+				B25C64912A7F3E88006AD3E6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakAppHighLights;
+			packageProductDependencies = (
+			);
+			productName = TakAppHighLights;
+			productReference = B25C64592A7F37B4006AD3E6 /* TakAppHighLights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B25C64682A7F37B6006AD3E6 /* TakAppHighLightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25C64802A7F37B6006AD3E6 /* Build configuration list for PBXNativeTarget "TakAppHighLightsTests" */;
+			buildPhases = (
+				B25C64652A7F37B6006AD3E6 /* Sources */,
+				B25C64662A7F37B6006AD3E6 /* Frameworks */,
+				B25C64672A7F37B6006AD3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B25C646B2A7F37B6006AD3E6 /* PBXTargetDependency */,
+			);
+			name = TakAppHighLightsTests;
+			productName = TakAppHighLightsTests;
+			productReference = B25C64692A7F37B6006AD3E6 /* TakAppHighLightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B25C64722A7F37B6006AD3E6 /* TakAppHighLightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25C64832A7F37B6006AD3E6 /* Build configuration list for PBXNativeTarget "TakAppHighLightsUITests" */;
+			buildPhases = (
+				B25C646F2A7F37B6006AD3E6 /* Sources */,
+				B25C64702A7F37B6006AD3E6 /* Frameworks */,
+				B25C64712A7F37B6006AD3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B25C64752A7F37B6006AD3E6 /* PBXTargetDependency */,
+			);
+			name = TakAppHighLightsUITests;
+			productName = TakAppHighLightsUITests;
+			productReference = B25C64732A7F37B6006AD3E6 /* TakAppHighLightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25C64512A7F37B4006AD3E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B25C64582A7F37B4006AD3E6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B25C64682A7F37B6006AD3E6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B25C64582A7F37B4006AD3E6;
+					};
+					B25C64722A7F37B6006AD3E6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B25C64582A7F37B4006AD3E6;
+					};
+				};
+			};
+			buildConfigurationList = B25C64542A7F37B4006AD3E6 /* Build configuration list for PBXProject "TakAppHighLights" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B25C64502A7F37B4006AD3E6;
+			packageReferences = (
+			);
+			productRefGroup = B25C645A2A7F37B4006AD3E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B25C64582A7F37B4006AD3E6 /* TakAppHighLights */,
+				B25C64682A7F37B6006AD3E6 /* TakAppHighLightsTests */,
+				B25C64722A7F37B6006AD3E6 /* TakAppHighLightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B25C64572A7F37B4006AD3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25C64642A7F37B6006AD3E6 /* Preview Assets.xcassets in Resources */,
+				B25C64612A7F37B5006AD3E6 /* Assets.xcassets in Resources */,
+				B25C64872A7F3897006AD3E6 /* test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25C64672A7F37B6006AD3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25C64712A7F37B6006AD3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B25C64552A7F37B4006AD3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25C648C2A7F3BA1006AD3E6 /* MTLViewContainer.swift in Sources */,
+				B25C645F2A7F37B4006AD3E6 /* ContentView.swift in Sources */,
+				B25C645D2A7F37B4006AD3E6 /* TakAppHighLightsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25C64652A7F37B6006AD3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25C646F2A7F37B6006AD3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B25C646B2A7F37B6006AD3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B25C64582A7F37B4006AD3E6 /* TakAppHighLights */;
+			targetProxy = B25C646A2A7F37B6006AD3E6 /* PBXContainerItemProxy */;
+		};
+		B25C64752A7F37B6006AD3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B25C64582A7F37B4006AD3E6 /* TakAppHighLights */;
+			targetProxy = B25C64742A7F37B6006AD3E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B25C647B2A7F37B6006AD3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B25C647C2A7F37B6006AD3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B25C647E2A7F37B6006AD3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakAppHighLights/Preview Content\"";
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demianProduction.msldevice.TakAppHighLights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B25C647F2A7F37B6006AD3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakAppHighLights/Preview Content\"";
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demianProduction.msldevice.TakAppHighLights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B25C64812A7F37B6006AD3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demianProduction.msldevice.TakAppHighLightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakAppHighLights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TakAppHighLights";
+			};
+			name = Debug;
+		};
+		B25C64822A7F37B6006AD3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demianProduction.msldevice.TakAppHighLightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakAppHighLights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TakAppHighLights";
+			};
+			name = Release;
+		};
+		B25C64842A7F37B6006AD3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demianProduction.msldevice.TakAppHighLightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakAppHighLights;
+			};
+			name = Debug;
+		};
+		B25C64852A7F37B6006AD3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demianProduction.msldevice.TakAppHighLightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakAppHighLights;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B25C64542A7F37B4006AD3E6 /* Build configuration list for PBXProject "TakAppHighLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25C647B2A7F37B6006AD3E6 /* Debug */,
+				B25C647C2A7F37B6006AD3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25C647D2A7F37B6006AD3E6 /* Build configuration list for PBXNativeTarget "TakAppHighLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25C647E2A7F37B6006AD3E6 /* Debug */,
+				B25C647F2A7F37B6006AD3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25C64802A7F37B6006AD3E6 /* Build configuration list for PBXNativeTarget "TakAppHighLightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25C64812A7F37B6006AD3E6 /* Debug */,
+				B25C64822A7F37B6006AD3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25C64832A7F37B6006AD3E6 /* Build configuration list for PBXNativeTarget "TakAppHighLightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25C64842A7F37B6006AD3E6 /* Debug */,
+				B25C64852A7F37B6006AD3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25C64512A7F37B4006AD3E6 /* Project object */;
+}
